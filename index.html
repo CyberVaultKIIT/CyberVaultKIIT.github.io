@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CyberVault KIIT Hero Section</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    .hero-bg {
+      background-image: url('cs.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      opacity: 0.8; /* Adjust opacity here */
+    }
+  </style>
+</head>
+<body class="bg-gray-700 text-white">
+
+  <!-- Navbar -->
+  <nav class="bg-gray-900 p-4">
+    <div class="container mx-auto flex items-center justify-between">
+      <!-- Logo -->
+      <div class="flex-shrink-0">
+        <a href="#">
+          <img src="lg.png" alt="Logo" class="h-19 w-20">
+        </a>
+      </div>
+      <!-- Links -->
+      <div class="hidden md:flex space-x-8">
+        <a href="#home" class="text-white hover:text-teal-500">Home</a>
+        <a href="#about" class="text-white hover:text-teal-500">About Us</a>
+        <a href="#cnt" class="text-white hover:text-teal-500">Contact Us</a>
+      </div>
+      <!-- Register Button -->
+      <div>
+        <a href="https://forms.gle/4mQYEi9J4UaLnErK7" class="inline-block px-8 py-2 border text-base font-medium rounded-md text-white bg-transparent hover:bg-green-600 transition-colors duration-300">Join Us</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero-bg relative h-screen flex items-center justify-center" id="home">
+    <div class="absolute inset-0 bg-black opacity-60"></div> <!-- To darken the background -->
+    <div class="relative text-center px-4 sm:px-6 lg:px-8 z-10">
+      <h1 class="text-4xl sm:text-6xl font-bold mb-4">CyberVault</h1>
+      <p class="text-lg sm:text-2xl mb-6">Hey Hackers! We’re a student run society of KIIT University who share the mindset of educating the world<br> about cyber. Take the leap and prepare yourself for the future.</p>
+      <a href="https://forms.gle/4mQYEi9J4UaLnErK7" class="inline-block px-8 py-3 border text-base font-medium rounded-md text-white bg-transparent hover:bg-green-600 transition-colors duration-300">Join Us</a>
+    </div>
+  </section>
+
+
+   <!-- About Us Section -->
+   <section class="bg-gray-900 py-16" id="about">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8 flex flex-col lg:flex-row items-center">
+      <!-- Photo -->
+      <div class="w-full lg:w-1/2 mb-8 lg:mb-0">
+        <img src="cs.png" alt="About Us Photo" class="rounded-lg shadow-lg">
+      </div>
+      <!-- Text Content -->
+      <div class="w-full lg:w-1/2 lg:pl-12">
+        <h3 class="text-2xl font-bold mb-4">We’re a University Information Security Society.</h3>
+        <p class="mb-6">CyberVault, the prestigious society for cybersecurity nestled within the esteemed School of Computer Science, beckons you to immerse yourself in the exhilarating realm of Cyber Defense. Whether your passion lies in the art of coding, the intriacies of network securities, the finesee of enhancing user interfaces,or the aspiration to embark on a rewarding career, this society stands as a beacon of opportunity.</p>
+        <!-- Table-like Layout -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <!-- Column 1 -->
+          <div class="flex items-start">
+            <svg class="h-6 w-6 text-teal-500 mr-4" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0C5.37258 0 0 5.37258 0 12C0 18.6274 5.37258 24 12 24C18.6274 24 24 18.6274 24 12C24 5.37258 18.6274 0 12 0ZM12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22ZM11 7H13V13H11V7ZM11 15H13V17H11V15Z"/></svg>
+            <div>
+              <h4 class="text-xl font-bold mb-2">You don’t have to be studying an IT degree</h4>
+              <p>We don’t believe in limiting ourselves to one discipline. With the modern reach of technology, cyber security literacy should be in every person’s toolbox.</p>
+            </div>
+          </div>
+          <!-- Column 2 -->
+          <div class="flex items-start">
+            <svg class="h-6 w-6 text-teal-500 mr-4" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0C5.37258 0 0 5.37258 0 12C0 18.6274 5.37258 24 12 24C18.6274 24 24 18.6274 24 12C24 5.37258 18.6274 0 12 0ZM12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22ZM11 7H13V13H11V7ZM11 15H13V17H11V15Z"/></svg>
+            <div>
+              <h4 class="text-xl font-bold mb-2">Our members share knowledge</h4>
+              <p>Our members are those who want to protect themselves, want to learn how hackers think, and want to know the difference between something which is secure and which is not.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-slate-700 text-white min-h-screen flex flex-col" id="cnt">
+    <div class="flex-grow flex flex-col items-center pt-8 px-4">
+        <h1 class="text-3xl font-bold mb-1 text-center">Contact us</h1>
+        <p class="text-center mb-12">We'd love to talk about how we can help you.</p>
+        
+        <section class="w-full max-w-4xl">
+            <div class="flex flex-col md:flex-row gap-8">
+                <div class="bg-slate-600 p-8 rounded-lg shadow-lg flex-1">
+                    <h2 class="text-xl font-semibold mb-4">Fill in the form</h2>
+                    <form id="contactForm">
+                        <div class="grid grid-cols-2 gap-4 mb-4">
+                            <input type="text" name="firstName" placeholder="First Name" class="p-2 rounded bg-slate-700 text-white" required>
+                            <input type="text" name="lastName" placeholder="Last Name" class="p-2 rounded bg-slate-700 text-white" required>
+                        </div>
+                        <input type="email" name="email" placeholder="Email" class="p-2 rounded bg-slate-700 text-white w-full mb-4" required>
+                        <input type="tel" name="phone" placeholder="Phone Number" class="p-2 rounded bg-slate-700 text-white w-full mb-4" required>
+                        <textarea name="details" placeholder="Details" rows="4" class="p-2 rounded bg-slate-700 text-white w-full mb-4" required></textarea>
+                        <button type="submit" class="bg-blue-500 text-white p-2 rounded w-full hover:bg-blue-600">Send inquiry</button>
+                    </form>
+                    <p class="text-sm mt-2 text-center">We'll get back to you in 1-2 business days.</p>
+                </div>
+                
+                <div class="space-y-6 flex-1">
+                    <div class="pb-6 border-b border-slate-500">
+                        <h3 class="flex items-center text-lg font-semibold mb-2">
+                            <i class="fas fa-book-open mr-2"></i> Knowledgebase
+                        </h3>
+                        <p class="text-sm">We're here to help with any questions or code.</p>
+                        <a href="mailto:cybervault.kiit@kiit.ac.in" class="text-blue-400 hover:underline text-sm">Contact support →</a>
+                    </div>
+                    
+                    <div class="pb-6 border-b border-slate-500">
+                        <h3 class="flex items-center text-lg font-semibold mb-2">
+                            <i class="fas fa-question-circle mr-2"></i> Socials
+                        </h3>
+                        <p class="text-sm">Take a look at our socials for Announcements!</p>
+                        <a href="https://www.instagram.com/cybervault_kiit/" class="text-blue-400 hover:underline text-sm">Visit Socials →</a>
+                    </div>
+                    
+                    <div class="pb-6 border-b border-slate-500">
+                        <h3 class="flex items-center text-lg font-semibold mb-2">
+                            <i class="fas fa-code mr-2"></i> Faculty In Charge
+                        </h3>
+                        <p class="text-sm">Ajit Kumar Pasayat, Assistant Professor, School of Computer Engineering</p>
+                        <a href="mailto:ajit.pasayatfcs@kiit.ac.in" class="text-blue-400 hover:underline text-sm">Contact Through Mail →</a>
+                    </div>
+                    
+                    <div>
+                        <h3 class="flex items-center text-lg font-semibold mb-2">
+                            <i class="fas fa-envelope mr-2"></i> Contact us by email
+                        </h3>
+                        <p class="text-sm">If you wish to write us an email instead please use</p>
+                        <a href="mailto:cybervault.kiit@kiit.ac.in" class="text-blue-400 hover:underline text-sm">cybervault.kiit@kiit.ac.in →</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer class="bg-slate-800 text-center py-2 mt-8">
+      <p class="text-sm text-slate-400">&copy; 2024 CyberVault. All rights reserved.</p>
+  </footer>
+  </section>
+
+
+
+<div id="customModal" class="fixed inset-0 bg-gray-600 bg-opacity-50 overflow-y-auto h-full w-full hidden">
+  <div class="relative top-20 mx-auto p-5 border w-96 shadow-lg rounded-md bg-white">
+    <div class="mt-3 text-center">
+      <div class="mx-auto flex items-center justify-center h-12 w-12 rounded-full bg-blue-100">
+        <svg id="modalIcon" class="h-6 w-6 text-blue-600 animate-spin" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path>
+        </svg>
+      </div>
+      <h3 class="text-lg leading-6 font-medium text-gray-900 mt-4" id="modalTitle">Sending...</h3>
+      <div class="mt-2 px-7 py-3">
+        <p class="text-sm text-gray-500" id="modalMessage">
+          Please wait while we process your submission.
+        </p>
+      </div>
+      <div class="items-center px-4 py-3">
+        <button id="closeModal" class="px-4 py-2 bg-green-500 text-white text-base font-medium rounded-md w-full shadow-sm hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-green-300 hidden">
+          Hooray!
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const form = document.getElementById('contactForm');
+    const modal = document.getElementById('customModal');
+    const closeModal = document.getElementById('closeModal');
+    const modalTitle = document.getElementById('modalTitle');
+    const modalMessage = document.getElementById('modalMessage');
+    const modalIcon = document.getElementById('modalIcon');
+  
+    if (!form) {
+      console.error('Form with id "contactForm" not found');
+      return;
+    }
+  
+    function showModal(title, message, status) {
+      modalTitle.textContent = title;
+      modalMessage.textContent = message;
+      
+      if (status === 'loading') {
+        modalIcon.innerHTML = '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path>';
+        modalIcon.classList.add('animate-spin', 'text-blue-600');
+        modalIcon.parentElement.classList.add('bg-blue-100');
+        closeModal.classList.add('hidden');
+      } else if (status === 'success') {
+        modalIcon.innerHTML = '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>';
+        modalIcon.classList.remove('animate-spin', 'text-blue-600');
+        modalIcon.classList.add('text-green-600');
+        modalIcon.parentElement.classList.remove('bg-blue-100');
+        modalIcon.parentElement.classList.add('bg-green-100');
+        closeModal.classList.remove('hidden');
+      } else if (status === 'error') {
+        modalIcon.innerHTML = '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path>';
+        modalIcon.classList.remove('animate-spin', 'text-blue-600');
+        modalIcon.classList.add('text-yellow-600');
+        modalIcon.parentElement.classList.remove('bg-blue-100');
+        modalIcon.parentElement.classList.add('bg-yellow-100');
+        closeModal.classList.remove('hidden');
+      }
+      
+      modal.classList.remove('hidden');
+    }
+  
+    form.addEventListener('submit', function(e) {
+      e.preventDefault();
+      console.log('Form submission intercepted');
+  
+      var data = {
+        firstName: form.firstName.value,
+        lastName: form.lastName.value,
+        email: form.email.value,
+        phone: form.phone.value,
+        details: form.details.value
+      };
+  
+      console.log('Sending data:', data);
+  
+      // Show loading modal immediately
+      showModal('Sending...', 'Please wait while we process your submission.', 'loading');
+  
+      fetch('https://script.google.com/macros/s/AKfycbx7QKovmVrkpZdYZrjpznHr4PUIK9xQwwgcJcEAFYG4Ju9hPs4Is7CLZoTQUyHnshQX/exec', {
+        method: 'POST',
+        mode: 'no-cors',
+        cache: 'no-cache',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        redirect: 'follow',
+        body: JSON.stringify(data)
+      })
+      .then(() => {
+        console.log('Data sent successfully');
+        showModal('Success!', 'Thank you! Your message has been sent.', 'success');
+        form.reset();
+      })
+      .catch(error => {
+        console.error('Error:', error);
+        showModal('Oops!', 'Something went wrong. Please try again later.', 'error');
+      });
+    });
+  
+    closeModal.addEventListener('click', function() {
+      modal.classList.add('hidden');
+    });
+  
+    window.addEventListener('click', function(event) {
+      if (event.target === modal) {
+        modal.classList.add('hidden');
+      }
+    });
+  });
+</script>
+
+
+
+
+</body>
+</html>
